@@ -106,7 +106,11 @@ console.log(reverseString("a tutti"));
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
  della stringa originale.
 */
-
+function cutString(stringa) {
+  return stringa.slice(1, -1);
+}
+console.log(cutString("ciao"));
+console.log(cutString("Cristian"));
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 10
